@@ -8,7 +8,7 @@ diretorio_principal = os.getcwd()
 def conectar_banco():
     try:
 
-        database = sqlite3.connect(os.path.join(diretorio_principal, 'database', 'mercado.db'))
+        database = sqlite3.connect(os.path.join(diretorio_principal, 'backend', 'database', 'mercado.db'))
         return database
     
     except sqlite3.Error as error:
