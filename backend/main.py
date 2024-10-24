@@ -1,6 +1,6 @@
 from produtos.mostrar_produtos import *
+from produtos.criar_produto import *
+from produtos.excluir_produto import *
+from produtos.atualizar_estoque import *
 
-produtos = mostrar_produtos()
-
-for prd in produtos:
-    print(prd)
+print(mostrar_produtos())
